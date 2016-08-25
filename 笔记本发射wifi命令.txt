@@ -1,3 +1,5 @@
 netsh wlan set hostednetwork mode=allow ssid=fghwifi key=12345678
 
 netsh wlan start hostednetwork
+
+加一点内容
