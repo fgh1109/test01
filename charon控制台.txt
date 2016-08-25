@@ -1,0 +1,99 @@
+
+Administrator@XP-201607031136 ~
+$ cd d:/MSYS20111123/msys/local_32/bin
+
+Administrator@XP-201607031136 /usr/local_32/bin
+$ charon-svc
+00[DMN] Starting IKE service charon-svc (strongSwan 5.3.2, Windows Client 5.1.26
+00 (SP 3.0)
+00[LIB] plugin 'nonce': loaded successfully
+00[LIB] plugin 'x509': loaded successfully
+00[LIB] plugin 'pubkey': loaded successfully
+00[LIB] plugin 'pkcs1': loaded successfully
+00[LIB] plugin 'pem': loaded successfully
+00[LIB] plugin 'openssl': loaded successfully
+00[LIB] Enter ipsecdrv initialization
+00[LIB] initialization of ipsecdrv failed
+00[ESP] flushing policies
+00[ESP] flushing SAD
+00[ESP] flushing allocated SPIs
+00[LIB] plugin 'kernel-libipsec': failed to load - kernel_libipsec_plugin_create
+ returned NULL
+00[LIB] plugin 'kernel-iph': loaded successfully
+00[LIB] plugin 'socket-win': loaded successfully
+00[LIB] plugin 'vici': loaded successfully
+00[LIB] feature CUSTOM:socket in plugin 'socket-win' has unmet dependency: CUSTO
+M:kernel-ipsec
+00[LIB] feature CUSTOM:libcharon-receiver in critical plugin 'charon-svc' has un
+met dependency: CUSTOM:socket
+00[LIB] feature CUSTOM:libcharon in critical plugin 'charon-svc' has unmet depen
+dency: CUSTOM:libcharon-receiver
+00[LIB] feature PUBKEY:DSA in plugin 'pem' has unmet dependency: PUBKEY:DSA
+00[LIB] feature PRIVKEY:DSA in plugin 'pem' has unmet dependency: PRIVKEY:DSA
+00[LIB] feature PRIVKEY:BLISS in plugin 'pem' has unmet dependency: PRIVKEY:BLIS
+S
+00[LIB] feature CERT_DECODE:PGP in plugin 'pem' has unmet dependency: CERT_DECOD
+E:PGP
+00[LIB] feature CERT_DECODE:X509_OCSP_REQUEST in plugin 'pem' has unmet dependen
+cy: CERT_DECODE:X509_OCSP_REQUEST
+00[LIB] failed to load 2 critical plugin features
+00[LIB] unloading plugin 'charon-svc' without loaded features
+00[LIB] unloading plugin 'socket-win' without loaded features
+0.15625s / 995 times in lock created at: dumping 0 stack frame addresses:
+
+Administrator@XP-201607031136 /usr/local_32/bin
+$ charon-svc
+00[DMN] Starting IKE service charon-svc (strongSwan 5.3.2, Windows Client 5.1.26
+00 (SP 3.0)
+00[LIB] plugin 'nonce': loaded successfully
+00[LIB] plugin 'x509': loaded successfully
+00[LIB] plugin 'pubkey': loaded successfully
+00[LIB] plugin 'pkcs1': loaded successfully
+00[LIB] plugin 'pem': loaded successfully
+00[LIB] plugin 'openssl': loaded successfully
+00[LIB] Enter ipsecdrv initialization
+01[DMN] application is stopping, cleaning up
+
+
+Administrator@XP-201607031136 /usr/local_32/bin
+$ charon-svc
+00[DMN] Starting IKE service charon-svc (strongSwan 5.3.2, Windows Client 5.1.26
+00 (SP 3.0)
+00[LIB] plugin 'nonce': loaded successfully
+00[LIB] plugin 'x509': loaded successfully
+00[LIB] plugin 'pubkey': loaded successfully
+00[LIB] plugin 'pkcs1': loaded successfully
+00[LIB] plugin 'pem': loaded successfully
+00[LIB] plugin 'openssl': loaded successfully
+00[LIB] Enter ipsecdrv initialization
+00[LIB] initialization of ipsecdrv failed
+00[ESP] flushing policies
+00[ESP] flushing SAD
+00[ESP] flushing allocated SPIs
+00[LIB] plugin 'kernel-libipsec': failed to load - kernel_libipsec_plugin_create
+ returned NULL
+00[LIB] plugin 'kernel-iph': loaded successfully
+00[LIB] plugin 'socket-win': loaded successfully
+00[LIB] plugin 'vici': loaded successfully
+00[LIB] feature CUSTOM:socket in plugin 'socket-win' has unmet dependency: CUSTO
+M:kernel-ipsec
+00[LIB] feature CUSTOM:libcharon-receiver in critical plugin 'charon-svc' has un
+met dependency: CUSTOM:socket
+00[LIB] feature CUSTOM:libcharon in critical plugin 'charon-svc' has unmet depen
+dency: CUSTOM:libcharon-receiver
+00[LIB] feature PUBKEY:DSA in plugin 'pem' has unmet dependency: PUBKEY:DSA
+00[LIB] feature PRIVKEY:DSA in plugin 'pem' has unmet dependency: PRIVKEY:DSA
+00[LIB] feature PRIVKEY:BLISS in plugin 'pem' has unmet dependency: PRIVKEY:BLIS
+S
+00[LIB] feature CERT_DECODE:PGP in plugin 'pem' has unmet dependency: CERT_DECOD
+E:PGP
+00[LIB] feature CERT_DECODE:X509_OCSP_REQUEST in plugin 'pem' has unmet dependen
+cy: CERT_DECODE:X509_OCSP_REQUEST
+00[LIB] failed to load 2 critical plugin features
+00[LIB] unloading plugin 'charon-svc' without loaded features
+00[LIB] unloading plugin 'socket-win' without loaded features
+0.000s / 1070 times in lock created at: dumping 0 stack frame addresses:
+0.15625s / 140 times in lock created at: dumping 0 stack frame addresses:
+
+Administrator@XP-201607031136 /usr/local_32/bin
+$
